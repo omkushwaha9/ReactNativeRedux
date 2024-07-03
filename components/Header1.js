@@ -5,7 +5,7 @@ import { Header } from 'react-native/Libraries/NewAppScreen'
 const Header1 = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.Text1}> Iphone Store </Text>
+      <Text style={styles.Text1}>0</Text>
     </View>
   )
 }
