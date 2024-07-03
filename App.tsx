@@ -8,28 +8,28 @@ const App = () => {
 
   const products=[
     {
-    name: 'Iphone 15',
-    color: 'Pink',
-    price: 100000,
-    Image: 'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-naturaltitanium-select_AV2?wid=724&hei=488&fmt=jpeg&qlt=95&.v=1693080287141'
+    name: 'Apple iPhone 15',
+    color: 'Blue',
+    price: '₹1,00,000 - 77,000.00',
+    Image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-blue?wid=5120&hei=2880&fmt=webp&qlt=70&.v=cHJOTXEwTU92OEtKVDV2cVB1R2FTSjlERndlRTljaUdZeHJGM3dlLzR2OGlYQ0tYMHd1OS9ZREtnNzFSR1owOHF2TWlpSzUzejRCZGt2SjJUNGl1VEtsS0dZaHBma3VTb3UwU2F6dkc4TGZPaDVjV2NEQVBZbTZldUQyWkpKRHk=&traceId=1'
   },
   {
-    name: 'Iphone 14',
-    color: 'Lavender',
-    price: 80000,
-    Image: 'https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1708672572/Croma%20Assets/Communication/Mobiles/Images/261932_0_bieudy.png?tr=w-1000'
+    name: 'Apple iPhone 14',
+    color: 'Yellow',
+    price: '₹80,000.00 - 66,000.00',
+    Image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-14-model-unselect-gallery-2-202303_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=70&.v=NjB6M3BqTGRudDZtakJrUG5tT2pHTGdzSmpObkZCM3MrNmJ5SkhESlNDZ1hBSXMwL2Jwdk9oTk42KzZHdTdNUXovdld4NkVCZ3JUZXJyZ1dUb1MwM0dKTG1lVWJJT2RXQWE0Mm9rU1V0V0IxZG1zQmhZY3FpN094bFJrYnF5eDR2azA1RzdtcFQ5a1dBaURTY0hJUEJBPT0=&traceId=1'
   },
   {
-    name: 'Iphone 13',
-    color: 'RoseGold',
-    price: 60000,
-    Image: 'https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1708671239/Croma%20Assets/Communication/Mobiles/Images/243466_0_jepbxv.png?tr=w-1000'
+    name: 'Apple iPhone 13',
+    color: 'Green',
+    price: '₹60,000.00 - 48,000.00',
+    Image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-13-finish-unselect-gallery-2-202207?wid=5120&hei=2880&fmt=webp&qlt=70&.v=WGQwVDZoTWdLODlMWERUbVY5M013dFgrSXpWVEhWaW9YTGlWRHFoSHU0OEZzSnVITG1JRUQvRFNkdFZtK2RYVGd2S3NaRzcrU0dmYjNHTUFiMnlsWFRocXAvNjVVaCtjTTZGTUNzOU8wNkhQM2N6WDhaeVlFWHpWOUdKN3RxR2Y=&traceId=1'
   },
   {
-    name: 'Iphone 12',
-    color: 'white',
-    price: 40000,
-    Image: 'https://ik.imagekit.io/3dqckpw4d/upload/iphone_12___Purple1657182290iphone-12-purple.png'
+    name: 'Apple iPhone 12',
+    color: 'White',
+    price: '₹50,000.00 - 36,000.00',
+    Image: 'https://i0.wp.com/cellbuddy.in/buddy/wp-content/uploads/2022/09/12-White.png?fit=800%2C800&ssl=1'
   },
   ]
 

@@ -1,4 +1,4 @@
-import { Button, Image, ScrollView, StyleSheet, Text, View } from 'react-native'
+import { Button, Image, StyleSheet, Text, View } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart, removeFromCart } from './redux/Action'
@@ -30,9 +30,9 @@ const Product = (props) => {
             },[cartItems])
     return (
         <View style={styles.container}>
-            <Text style={{ fontSize: 24 }}>{item.name}</Text>
-            <Text style={{ fontSize: 24 }}>{item.price}</Text>
-            <Text style={{ fontSize: 24 }}>{item.color}</Text>
+            <Text style={styles.TextName}>{item.name}</Text>
+            <Text style={styles.TextColor}>{item.color}</Text>
+            <Text style={styles.TextPrice}>{item.price}</Text>
             <Image style={styles.image} source={{ uri: item.Image }} />
             {
                 isAdded ?
@@ -53,12 +53,37 @@ const styles = StyleSheet.create({
         borderBottomColor: 'lavender',
         borderBottomWidth: 2,
         padding: 15,
-        marginBottom: 40,
     },
     image: {
-        height: 200,
-        width: 200,
+        height: 250,
+        width: 250,
+        borderRadius:10,
+        margin:15,
 
+
+    },
+    TextName:{
+        fontSize:24,
+        
+        fontWeight:'bold',
+        backgroundColor:'lightyellow',
+        borderColor:'lavender',
+        borderWidth:2,
+        borderTopLeftRadius:30,
+        borderBottomRightRadius:30,
+        borderBottomLeftRadius:9,
+        padding:7,
+    },
+    TextColor:{
+        fontSize:24,
+        fontWeight:'bold',
+        color:'black',
+        fontStyle:'italic',
+    },
+    TextPrice:{
+        fontSize:24,
+        fontWeight:'bold',
+        color:'lightblue',
     },
 })
 
