@@ -34,12 +34,17 @@ const Product = (props) => {
             <Text style={styles.TextColor}>{item.color}</Text>
             <Text style={styles.TextPrice}>{item.price}</Text>
             <Image style={styles.image} source={{ uri: item.Image }} />
-            {
-                isAdded ?
-                    <Button title='Remove From cart' onPress={() => handleRemoveFromCart(item)} />
-                    :
-                    <Button title='Add to cart' onPress={() => handleAddToCart(item)} />
-            }
+        {
+        isAdded ?
+             <Button 
+             
+             title='Remove From cart'
+              onPress={() => handleRemoveFromCart(item)} />
+             :
+             <Button 
+             
+             title='Add to cart' onPress={() => handleAddToCart(item)} />
+        }
 
         </View>
 
@@ -49,42 +54,51 @@ const Product = (props) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: 'center',
-        borderBottomColor: 'lavender',
+        
+        borderBottomColor: '#0202',
         borderBottomWidth: 2,
         padding: 15,
     },
     image: {
+        marginHorizontal:'auto',
         height: 250,
         width: 250,
         borderRadius:10,
         margin:15,
-
+        
 
     },
     TextName:{
         fontSize:24,
-        
+        textAlign:'center',
         fontWeight:'bold',
         backgroundColor:'lightyellow',
         borderColor:'lavender',
+        color:'#4B433A',
         borderWidth:2,
         borderTopLeftRadius:30,
+        borderTopRightRadius:9,
         borderBottomRightRadius:30,
         borderBottomLeftRadius:9,
         padding:7,
+        
     },
     TextColor:{
         fontSize:24,
+        
         fontWeight:'bold',
-        color:'black',
+        color:'#AFAA6F',
         fontStyle:'italic',
+        marginHorizontal:10,
     },
     TextPrice:{
         fontSize:24,
         fontWeight:'bold',
         color:'lightblue',
+        marginHorizontal:10,
     },
+   
+   
 })
 
 export default Product

@@ -27,13 +27,14 @@ const Header1 = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:'lavender',
+    backgroundColor:'#0202',
     alignItems:'flex-end',
     
   },
   cartItems:{
-     backgroundColor:'pink',
-     borderRadius:10,
+     backgroundColor:'grey',
+     borderBottomLeftRadius:25,
+     
     
   },
   Text1: {
