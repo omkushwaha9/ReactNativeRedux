@@ -31,6 +31,7 @@ const Product = (props) => {
             },[cartItems])
     return (
         <View style={styles.container}>
+            
             <Text style={styles.TextName}>{item.name}</Text>
             <Text style={styles.TextColor}>{item.color}</Text>
             <Text style={styles.TextPrice}>{item.price}</Text>
@@ -69,6 +70,8 @@ const styles = StyleSheet.create({
         
 
     },
+    
+    
     TextName:{
         fontSize:24,
         textAlign:'center',

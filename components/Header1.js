@@ -1,7 +1,7 @@
 // Header1File
 import { StyleSheet, Text, View } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import { Header } from 'react-native/Libraries/NewAppScreen'
+// import { Header } from 'react-native/Libraries/NewAppScreen'
 import { useSelector } from 'react-redux'
 const Header1 = () => {
 
@@ -16,6 +16,7 @@ const Header1 = () => {
     <View style={styles.container}>
       <Text>
         <View style={styles.cartItems}>
+         
           <Text  style={styles.Text1}>
           {cartItems}
           </Text>
@@ -28,13 +29,16 @@ const Header1 = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:'#0202',
+    backgroundColor:'#0203',
     alignItems:'flex-end',
+    
+    
     
   },
   cartItems:{
      backgroundColor:'grey',
      borderBottomLeftRadius:25,
+     
      
     
   },
