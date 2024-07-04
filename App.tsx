@@ -1,4 +1,4 @@
-// MainAppFile
+//  MainAppFile
 import { ScrollView, StyleSheet, View } from 'react-native'
 import React from 'react'
 import Header1 from './components/Header1'
